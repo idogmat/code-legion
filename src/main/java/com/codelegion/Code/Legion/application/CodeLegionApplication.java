@@ -1,4 +1,4 @@
-package com.codelegion.Code.Legion;
+package com.codelegion.Code.Legion.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
