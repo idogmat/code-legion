@@ -1,6 +1,6 @@
-package com.codelegion.Code.Legion.models;
+package com.codelegion.Code.Legion.models.user;
 
-public class User {
+public class UserModel {
     /*id*/
     private Long id;
     /*registration fields*/
@@ -22,6 +22,7 @@ public class User {
     private int articleCounter;
     private int projectCounter;
     private int helpCounter;
+    /*========Interviewer==========*/
     /*=========================*/
     /*game part fields*/
     private int level;
@@ -32,6 +33,7 @@ public class User {
     private int seoLevel;
     private int cssLevel;
     private int cLevel;
+    private int examMain;
     /*==========Medium Soft Skills===============*/
     /*++++++++++Java+++++++++++*/
     /*Java syntax*/
@@ -50,28 +52,33 @@ public class User {
     /*C core*/
     /*C projects*/
     /*++++++++++JavaScript+++++++++++*/
-    /*Java syntax*/
-    /*Java core*/
-    /*Java projects*/
+    /*JavaScript syntax*/
+    /*JavaScript core*/
+    /*JavaScript projects*/
     /*++++++++++Kotlin+++++++++++*/
-    /*Java syntax*/
-    /*Java core*/
-    /*Java projects*/
+    /*Kotlin syntax*/
+    /*Kotlin core*/
+    /*Kotlin projects*/
     /*++++++++++C#+++++++++++*/
-    /*Java syntax*/
-    /*Java core*/
-    /*Java projects*/
+    /*C# syntax*/
+    /*C# core*/
+    /*C# projects*/
     /*++++++++++PHP+++++++++++*/
-    /*Java syntax*/
-    /*Java core*/
-    /*Java projects*/
+    /*PHP syntax*/
+    /*PHP core*/
+    /*PHP projects*/
     /*++++++++++Swift+++++++++++*/
-    /*Java syntax*/
-    /*Java core*/
-    /*Java projects*/
+    /*Swift syntax*/
+    /*Swift core*/
+    /*Swift projects*/
     /*++++++++++Scala+++++++++++*/
-    /*Java syntax*/
-    /*Java core*/
-    /*Java projects*/
+    /*Scala syntax*/
+    /*Scala core*/
+    /*Scala projects*/
+    /*+++++Algoritms and struct+++++*/
+    /*++++++++++++Algorim Tasks+++++++++*/
+    private int easyTaskCounter;
+    private int mediumTaskCounter;
+    private int hardTaskCounter;
     /*==========Hard Soft Skills===============*/
 }
