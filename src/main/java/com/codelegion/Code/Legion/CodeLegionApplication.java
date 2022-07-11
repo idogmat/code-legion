@@ -1,11 +1,10 @@
-package com.codelegion.Code.Legion.application;
+package com.codelegion.Code.Legion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CodeLegionApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(CodeLegionApplication.class, args);
 	}
