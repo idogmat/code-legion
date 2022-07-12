@@ -9,7 +9,8 @@ public class MainController {
 
     @GetMapping("/")
     public String home(Model model) {
-        return "pages/home";
+        model.addAttribute("Title","test");
+        return "pages/index";
     }
 
 //    @PostMapping("/general")
