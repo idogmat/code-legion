@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+
+  jdk:
+    image: openjdk:17
+
+  linux:
+    image: ubuntu
+
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1111
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
