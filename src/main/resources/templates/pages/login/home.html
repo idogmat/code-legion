@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Code</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- header -->
+    <div th:insert="blocks/header/headerHome :: header"></div>
+    <div th:insert="blocks/header/headerHome :: header_top" class="sticky-top"></div>
+<!-- slider hero -->
+    <div th:insert="blocks/home/slider:: slider"></div>
+<!-- info -->
+    <section class="info container-fluid">
+        <div class="container info-container">
+            <div class="get_inner">
+                <h2 class="get_title">Что вы получаете</h2>
+                <div class="get_slider">
+                    <div class="get_slider__container">
+                        <div class="get-slider__wrapper swiper-wrapper">
+<!--                            elem-->
+                            <div class="get-slider__slide swiper-slide">
+                                <div class="get-slider__item get-item">
+                                    <div class="get-item__icon lazy"></div>
+                                    <h3 class="get-item__title"> Востребованную профессию </h3>
+                                    <p class="get-item__description">
+                                        IT-компании испытывают большую нехватку разработчиков. Обучение в Школе 21 дает возможность приобрести навыки, необходимые современному специалисту на рынке IT.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--                            elem-->
+
+                            <div class="get-slider__slide swiper-slide swiper-slide-active">
+                                <div class="get-slider__item get-item">
+                                    <div class="get-item__icon lazy"></div>
+                                    <h3 class="get-item__title"> Бесплатное обучение  </h3>
+                                    <p class="get-item__description">
+                                        Обучение полностью бесплатно, без обязательств. Участникам предоставляется все необходимое для прохождения курса. По окончании обучения участники получают сертификат Школы 21.                                     </p>
+                                </div>
+                            </div>
+                            <!--                            elem-->
+                            <div class="get-slider__slide swiper-slide swiper-slide-active">
+                                <div class="get-slider__item get-item">
+                                    <div class="get-item__icon lazy"></div>
+                                    <h3 class="get-item__title"> Востребованную профессию </h3>
+                                    <p class="get-item__description">
+                                        IT-компании испытывают большую нехватку разработчиков. Обучение в Школе 21 дает возможность приобрести навыки, необходимые современному специалисту на рынке IT.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--                            elem-->
+                            <div class="get-slider__slide swiper-slide swiper-slide-active">
+                                <div class="get-slider__item get-item">
+                                    <div class="get-item__icon lazy"></div>
+                                    <h3 class="get-item__title">  Гарантированную стажировку  </h3>
+                                    <p class="get-item__description">
+                                        В программе обучения стажировка 3 месяца. Участникам оказывается помощь в поиске оплачиваемой стажировки, соответствующей выбранному направлению обучения.                                     </p>
+                                </div>
+                            </div>
+                            <!--                            elem-->
+                            <div class="get-slider__slide swiper-slide swiper-slide-active">
+                                <div class="get-slider__item get-item">
+                                    <div class="get-item__icon lazy"></div>
+                                    <h3 class="get-item__title">   Современную инфраструктуру   </h3>
+                                    <p class="get-item__description">
+                                        Учебные кластеры оборудованы современными компьютерами, оснащенные всем необходимым soft-ом. Во всех кампусах есть зоны отдыха и игровые комнаты.                                 </div>
+                            </div>
+                            <!--                            elem-->
+                            <div class="get-slider__slide swiper-slide swiper-slide-active">
+                                <div class="get-slider__item get-item">
+                                    <div class="get-item__icon lazy"></div>
+                                    <h3 class="get-item__title">   Актуальные языки программирования   </h3>
+                                    <p class="get-item__description">
+                                        Программа обучения позволяет самостоятельно выбирать направление, языки и учебные проекты которые вы будете реализовывать в рамках основного курса.                                 </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="get_slider_btn-prev swiper-button-prev slider-arrows__prev">
+                        prev
+                    </div>
+                    <div class="get_slider_btn-next swiper-button-next slider-arrows__next">
+                        next
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- skills -->
+    <section class="learning">
+        <div class="container">
+            <div class="learning__wrapper">
+                <h2 class="learning__title title"> Вы сможете изучить </h2>
+            <div class="learning__box">
+                <div class="learning__name">
+                    Основные направления
+                </div>
+                <div class="learning__inner">
+<!--                    skills-->
+                    <div class="tooltip">
+                        <p class="learning__item"> Мобильная разработка (Kotlin, Swift)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="learning__box"></div>
+            </div>
+        </div>
+    </section>
+<!--learning-->
+
+<!--step_learning-->
+
+<!-- work -->
+
+<!-- contact -->
+
+<!-- FAQ-->
+
+<!-- footer -->
+    <div th:insert="blocks/footer/footer :: footer"></div>
+<div class="bg-dark"></div>
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
